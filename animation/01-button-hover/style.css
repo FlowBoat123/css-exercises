@@ -11,9 +11,15 @@
 button {
   border-radius: 8px;
   border: none;
-  background-color: #2563eb;
+  background-color: #4625eb;
   color: white;
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition-duration: 200ms;
+}
+
+button:hover {
+  padding: 100px;
+  font-size: 30px;
 }
